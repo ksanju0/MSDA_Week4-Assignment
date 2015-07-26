@@ -1,0 +1,17 @@
+---
+title: "Matrix2Week4"
+author: "sanjive"
+date: "July 21, 2015"
+output: html_document
+---
+
+This is for Week 4 Assignment solving linear equation using MASS Package 
+
+
+```{r}
+A <- matrix(data=c(4,-3,-3,5,0,1), nrow=3, ncol=2, byrow=TRUE)    
+B <- matrix(data=c(1,4,3,-2), nrow=2, ncol=2, byrow=TRUE)
+A%*%B
+```
+
+
